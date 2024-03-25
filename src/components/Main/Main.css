@@ -1,0 +1,70 @@
+.main {
+    background-color: #eef0f3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(5, 5, 5);
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    min-height: 40rem;
+    position: relative;
+}
+
+.banner-img {
+    min-height: 42rem;
+    opacity: .9;
+    z-index: 0;
+}
+
+.logo-aguia{
+    max-width: 20rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #090909c5;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    top: 4rem;
+    gap: 1rem;
+}
+
+.banner-text>h1 {
+    text-align: center;
+    color: #fcfcfd;
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 0 .2rem;
+    text-shadow: 2px 2px 2px #090909c5;    
+}
+
+.banner-text>span {
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #090909c5;
+}
+
+.banner-text>button{
+    width: 150px;
+    font-size: 1rem;
+    font-weight: bold;
+    color:#ffffff;
+    border-color:#ffffff;
+    text-shadow: 2px 2px 2px #090909c5;
+}
+
